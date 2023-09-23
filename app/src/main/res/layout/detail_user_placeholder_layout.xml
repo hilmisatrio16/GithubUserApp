@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_detail_user"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_user_placeholder"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:background="@color/background_shimmer"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_full_name_placeholder"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/background_shimmer"
+        app:layout_constraintEnd_toEndOf="@+id/image_user_placeholder"
+        app:layout_constraintStart_toStartOf="@+id/image_user_placeholder"
+        app:layout_constraintTop_toBottomOf="@+id/image_user_placeholder" />
+
+    <TextView
+        android:id="@+id/tv_username_placeholder"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/background_shimmer"
+        app:layout_constraintEnd_toEndOf="@+id/tv_full_name_placeholder"
+        app:layout_constraintStart_toStartOf="@+id/tv_full_name_placeholder"
+        app:layout_constraintTop_toBottomOf="@+id/tv_full_name_placeholder" />
+
+    <LinearLayout
+        android:id="@+id/layout_upper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/tv_username_placeholder"
+        app:layout_constraintStart_toStartOf="@+id/tv_username_placeholder"
+        app:layout_constraintTop_toBottomOf="@id/tv_username_placeholder">
+
+        <TextView
+            android:id="@+id/tv_location_user_placeholder"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@color/background_shimmer"
+            android:drawablePadding="2dp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@color/background_shimmer"
+            tools:ignore="InefficientWeight" />
+
+        <TextView
+            android:id="@+id/tv_company_placeholder"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@color/background_shimmer"
+            android:drawablePadding="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/layout_upper"
+        app:layout_constraintStart_toStartOf="@+id/layout_upper"
+        app:layout_constraintTop_toBottomOf="@id/layout_upper">
+
+        <TextView
+            android:id="@+id/tv_followers_placeholder"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@color/background_shimmer" />
+
+        <TextView
+            android:id="@+id/tv_following_placeholder"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@color/background_shimmer" />
+
+        <TextView
+            android:id="@+id/tv_repository_placeholder"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@color/background_shimmer" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

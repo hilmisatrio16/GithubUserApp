@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="grey_500">#5F5F5F</color>
+    <color name="grey_400">#706E6E</color>
+    <color name="grey_300">#848484</color>
+    <color name="grey_200">#8C8C8C</color>
+    <color name="grey_100">#878787</color>
+    <color name="grey">#A4A4A4</color>
+    <color name="white_300">#DDDDDD</color>
+    <color name="white_200">#EBEBEB</color>
+    <color name="white_100">#F8F8F8</color>
+    <color name="black_400">#303030</color>
+    <color name="silver_100">#EBEBEB</color>
+    <color name="silver">#E7E7E7</color>
+    <color name="blue_light">#F6FAFF</color>
+    <color name="purple">#0071FF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="red_light">#FF4E4E</color>
+    <color name="background_shimmer">#dddddd</color>
+    <color name="background_frame">#EBEBEB</color>
+    <color name="background_card_item">#F8F8F8</color>
+    <color name="color_arrowback">#303030</color>
+    <color name="color_text_follow">#303030</color>
+    <color name="background_follow">#FFFFFF</color>
+    <color name="text_searchview">#303030</color>
+    <color name="hint_searchview">#403F3F</color>
+    <color name="status_bar">#686868</color>
+</resources>
